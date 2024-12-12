@@ -69,3 +69,7 @@ resource "aws_instance" "instance_2" {
     VPC  = "vpc-0b948e9d589ae0fd5"
   }
 }
+
+output "created_sg_id" {
+    value = aws_security_group.ssh_access.id
+}
