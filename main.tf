@@ -58,7 +58,7 @@ resource "aws_instance" "instance_1" {
 }
 
 resource "aws_instance" "instance_2" {
-  ami                    = "ami-00123af0ec3011bb6" #використай свою AMI
+  ami                    = "ami-0745b7d4092315796"
   instance_type          = "t2.micro"
   key_name               = "slengpack"
   subnet_id              = "subnet-0cd5072ef462bb252"
