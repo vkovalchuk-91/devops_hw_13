@@ -84,5 +84,5 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           to: ${{ secrets.TELEGRAM_CHAT_ID }}
           message: |
-            *Destroy tracked VPC's Result*:
+            *Destroy tracked Security Group Result*:
             *Terraform Destroy Status*: ${{ env.TERRAFORM_STATUS }}
